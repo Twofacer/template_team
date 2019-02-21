@@ -1,0 +1,273 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@font-face {
+  font-family: "Robot";
+  src: url("../fonts/Robot/Roboto-Regular.eot");
+  src: url("../fonts/Robot/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Robot/Roboto-Regular.woff") format("woff"), url("../fonts/Robot/Roboto-Regular.ttf") format("true-type");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Made";
+  src: url("../fonts/Made/MADEEvolveSansEVO-Medium.eot");
+  src: url("../fonts/Made/MADEEvolveSansEVO-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Made/MADEEvolveSansEVO-Medium.woff") format("woff"), url("../fonts/Made/MADEEvolveSansEVO-Medium.ttf") format("true-type");
+  font-weight: normal;
+  font-style: normal; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  background-color: #eff0f2;
+  line-height: 1;
+  font-family: "Montserrat-Regular",  Arial, sans-serif; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+.crest {
+  width: 30px;
+  height: 30px; }
+
+.no-gutter {
+  padding-right: 0;
+  padding-left: 0; }
+
+a:hover {
+  color: black; }
+
+.section1 {
+  padding-bottom: 200px; }
+
+.section1_title1 {
+  text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
+  color: #505050;
+  font-family: Montserrat;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  /* Text style for "Say Hello" */
+  letter-spacing: 2.7px;
+  /* Text style for "" */
+  color: #505050;
+  text-align: center;
+  margin-top: 300px; }
+
+.section1_title2 {
+  text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
+  color: #505050;
+  font-family: Montserrat;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  /* Text style for "Say Hello" */
+  letter-spacing: 2.7px;
+  /* Text style for "" */
+  color: #505050;
+  text-align: center;
+  margin-top: 25px; }
+
+.first_section_contactus {
+  display: block;
+  margin: auto;
+  border-radius: 2px;
+  border: 2px solid #000000;
+  opacity: 0.5;
+  margin-top: 170px; }
+
+.first_section_contactus_text {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+  /* Text style for "CONTACT US" */
+  letter-spacing: 2.16px; }
+
+.section2 {
+  background-color: #f8fafa;
+  padding: 130px; }
+
+.section2_title {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  /* Text style for "ABOUT US" */
+  letter-spacing: 2.28px;
+  text-align: center; }
+
+.section2_title2 {
+  color: #000000;
+  font-family: Merriweather;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+  /* Text style for "L, orem ip" */
+  letter-spacing: 1.08px;
+  text-align: center;
+  margin-top: 17px; }
+
+.mod_info {
+  margin-top: 150px; }
+
+.Info_title1 {
+  color: #000000;
+  font-family: Merriweather;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  /* Text style for "We Actuall" */
+  letter-spacing: 1.2px;
+  margin-bottom: 30px; }
+
+.Info_text1 {
+  color: #000000;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  /* Text style for "A,  visual" */
+  letter-spacing: 0.8px;
+  margin-bottom: 40px; }
+
+.section3 {
+  background-color: white;
+  padding-top: 120px;
+  padding-bottom: 130px; }
+
+.section3_title {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  /* Text style for "featured w" */
+  letter-spacing: 2.28px;
+  text-align: center; }
+
+.section3_subtitle {
+  color: #000000;
+  font-family: Merriweather;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+  /* Text style for "L, orem ip" */
+  letter-spacing: 1.02px;
+  margin-top: 17px;
+  text-align: center; }
+
+.mod_work {
+  margin-top: 120px; }
+
+.mod_height {
+  margin-top: 13px; }
+
+.section4 {
+  padding-top: 120px; }
+
+.section4_title {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  /* Text style for "our servic" */
+  letter-spacing: 2.28px;
+  text-align: center; }
+
+.section4_title2 {
+  color: #000000;
+  font-family: Merriweather;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+  /* Text style for "L, orem ip" */
+  letter-spacing: 1.02px;
+  text-align: center;
+  margin-top: 16px; }
+
+.mod_servise {
+  margin-top: 120px; }
+
+.spinned_text_holder {
+  width: 652px;
+  height: 422px;
+  background-color: #6df6eb;
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-right: 100px; }
+
+.spinned_text {
+  color: #000000;
+  font-family: Merriweather;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29px;
+  text-transform: uppercase;
+  /* Text style for "D, esignin" */
+  letter-spacing: 1.2px; }
+
+.spinned_text_2 {
+  color: #000000;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  /* Text style for "Our most p" */
+  letter-spacing: 0.4px;
+  margin-top: 38px; }
+
+.service {
+  width: 474px;
+  height: 422px;
+  background-color: #000000;
+  opacity: 0.6; }
+
+.mode_hover {
+  background-image: url("../img/service_1.png");
+  background-repeat: no-repeat; }
+  .mode_hover:hover {
+    -webkit-filter: brightness(40%);
+    filter: brightness(40%);
+    transition: 1s ease-in-out; }
