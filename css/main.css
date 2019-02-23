@@ -1,15 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
 @font-face {
-  font-family: "Robot";
-  src: url("../fonts/Robot/Roboto-Regular.eot");
-  src: url("../fonts/Robot/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Robot/Roboto-Regular.woff") format("woff"), url("../fonts/Robot/Roboto-Regular.ttf") format("true-type");
+  font-family: "Montserrat";
+  src: url("../fonts/m/Montserrat-Regular.eot");
+  src: url("../fonts/m/Montserrat-Regular.eot") format("embedded-opentype"), url("../fonts/m/Montserrat-Regular.woff") format("woff"), url("../fonts/m/Montserrat-Regular.ttf") format("true-type");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: "Made";
-  src: url("../fonts/Made/MADEEvolveSansEVO-Medium.eot");
-  src: url("../fonts/Made/MADEEvolveSansEVO-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Made/MADEEvolveSansEVO-Medium.woff") format("woff"), url("../fonts/Made/MADEEvolveSansEVO-Medium.ttf") format("true-type");
+  font-family: "Raleway";
+  src: url("../fonts/r/Raleway-Regular.eot");
+  src: url("../fonts/r/Raleway-Regular.eot?") format("embedded-opentype"), url("../fonts/r/Raleway-Regular.woff") format("woff"), url("../fonts/r/Raleway-Regular.ttf") format("true-type");
   font-weight: normal;
   font-style: normal; }
 
@@ -122,9 +122,9 @@ a:hover {
 
 .section2_title {
   color: #000000;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 38px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 28px;
   text-transform: uppercase;
   /* Text style for "ABOUT US" */
@@ -159,7 +159,7 @@ a:hover {
 
 .Info_text1 {
   color: #000000;
-  font-family: Raleway;
+  font-family: "Raleway";
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -251,7 +251,7 @@ a:hover {
 
 .spinned_text_2 {
   color: #000000;
-  font-family: Raleway;
+  font-family: "Raleway";
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -444,12 +444,12 @@ a:hover {
 .profile {
   box-shadow: 3px 6px 16px rgba(20, 20, 21, 0.18);
   background-color: #6df6eb;
-  padding-top: 43px;
-  padding-left: 38px;
+  padding-top: 33px;
+  padding-left: 28px;
   opacity: 0;
   display: block;
   margin: auto;
-  margin-top: 200px; }
+  margin-top: 180px; }
 
 .profile_title {
   color: #767070;
@@ -476,7 +476,8 @@ a:hover {
 
 .section6 {
   padding-top: 120px;
-  background-color: #f9fbfb; }
+  background-color: #f9fbfb;
+  padding-bottom: 220px; }
 
 .rev_title {
   color: #000000;
@@ -498,3 +499,177 @@ a:hover {
   text-align: center;
   letter-spacing: 1.02px;
   margin-top: 15px; }
+
+.slide {
+  border-radius: 3px;
+  background-color: #eaebed;
+  width: 660px;
+  height: 360px;
+  display: block;
+  margin: auto;
+  padding-top: 100px;
+  padding-left: 86px;
+  padding-right: 80px; }
+
+.rewiew_title {
+  color: #787878;
+  font-family: Merriweather;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center; }
+
+.rewiew_text {
+  color: #000000;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: 30px;
+  letter-spacing: 0.96px; }
+
+.star_holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none !important; }
+
+.star {
+  margin-right: 6px; }
+
+.slick-slide img {
+  display: inline; }
+
+.prev {
+  height: 53px;
+  width: 53px;
+  background-image: url("../img/prev.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  left: 65%;
+  position: relative;
+  top: 468px; }
+
+.next {
+  height: 53px;
+  width: 53px;
+  background-image: url("../img/next.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  left: 72%;
+  position: relative; }
+
+.section7 {
+  padding-top: 108px;
+  background-color: white;
+  padding-bottom: 100px; }
+
+.comp {
+  margin-left: 30px; }
+
+.comp_second {
+  margin-top: 20px; }
+
+.form {
+  box-shadow: 0 0 30px rgba(21, 21, 21, 0.12);
+  background-color: rgba(2, 22, 35, 0.7);
+  padding-top: 50px;
+  padding-left: 35px;
+  padding-right: 33px;
+  padding-bottom: 38px; }
+
+.map {
+  box-shadow: 0 0 30px rgba(21, 21, 21, 0.12);
+  background-color: rgba(2, 22, 35, 0.7);
+  padding: 36px 30px 36px 30px; }
+
+.input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #CCC;
+  color: white;
+  box-sizing: border-box;
+  font-family: 'Arvo';
+  font-size: 18px;
+  height: 50px;
+  left: 28%;
+  margin: -25px 0 0 -157px;
+  padding: 10px 0px;
+  position: relative;
+  top: 50%;
+  width: 80%; }
+  .input:focus {
+    outline: none; }
+
+input::-webkit-input-placeholder {
+  color: #AAA; }
+
+.contact {
+  background-image: url("../img/bg_form.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 120px;
+  padding-bottom: 120px; }
+
+.mod_input {
+  height: 88px; }
+
+.contact_form_button {
+  padding: 20px 37px 20px 37px;
+  border-radius: 2px;
+  background-color: #6eeee4;
+  margin-top: 120px; }
+
+.text_contact {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+  letter-spacing: 2.16px; }
+
+.map_text {
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.7; }
+
+.footer {
+  background-color: #262b2e;
+  padding-top: 90px;
+  padding-bottom: 90px; }
+
+.footer_title {
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  text-transform: uppercase;
+  opacity: 0.8;
+  letter-spacing: 0.16px;
+  text-align: center; }
+
+.footer_holder {
+  display: block;
+  margin: auto;
+  width: 200px;
+  margin-top: 20px; }
+
+.copyrith {
+  opacity: 0.4;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0.16px;
+  text-align: center;
+  margin-top: 40px; }
